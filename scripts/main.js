@@ -11,7 +11,7 @@ function spin(){
 	console.log(myOtherBox.object3D.rotation.x);
 }
 
- setInterval(spin, 16); 
+ setInterval(spin, 16);
 
 
 
