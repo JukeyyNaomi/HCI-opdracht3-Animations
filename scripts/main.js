@@ -9,6 +9,8 @@ function spin(){
 	console.log(myOtherBox.object3D.rotation.y);
 	myOtherBox.object3D.rotation.x -= rotationSpeed;
 	console.log(myOtherBox.object3D.rotation.x);
+	myOtherBox.object3D.rotation.z -= rotationSpeed;
+	console.log(myOtherBox.object3D.rotation.z);
 }
 
  setInterval(spin, 16);
